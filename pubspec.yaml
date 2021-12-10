@@ -29,7 +29,7 @@ dependencies:
   location_web:
     git:
       url: https://github.com/anvu69/location_web.git
-      ref: 533aba260e2d0a4904dd371bbc617be1b101dbb4
+      ref: a9796b2387373fef0b4be5280043a7e0a16a4124
     # path: ../location_web
   meta: ^1.0.5
 
