@@ -4,10 +4,8 @@ version '1.0-SNAPSHOT'
 buildscript {
     ext.kotlin_version = '1.4.20'
     repositories {
-        maven {
-            url "https://maven.google.com/"
-        }
-        // mavenCentral()
+        google()
+        mavenCentral()
     }
 
     dependencies {
@@ -18,10 +16,8 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        maven {
-            url "https://maven.google.com/"
-        }
-        // mavenCentral()
+        google()
+        mavenCentral()
 
     }
 }
