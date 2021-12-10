@@ -24,9 +24,7 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  location_platform_interface:
-    git:
-      url: 
+  location_platform_interface: ^1.1.0
     # path: ../location_platform_interface
   location_web: ^1.0.1
     # path: ../location_web
