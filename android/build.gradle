@@ -7,7 +7,7 @@ buildscript {
         maven {
             url "https://maven.google.com/"
         }
-        mavenCentral()
+        // mavenCentral()
     }
 
     dependencies {
@@ -21,7 +21,7 @@ rootProject.allprojects {
         maven {
             url "https://maven.google.com/"
         }
-        mavenCentral()
+        // mavenCentral()
 
     }
 }
